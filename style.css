@@ -1,0 +1,100 @@
+Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ .logo{
+    width: 60px; 
+    height: 30px;
+ } 
+
+ .row {
+    display:flex;
+ }
+
+ .forty{
+    width: 40%;
+ } 
+
+ .space-evenly{
+    justify-content: space-evenly;
+ } 
+
+ .y-center {
+    align-items: center;
+ }
+
+ .icon {
+    width: 24px; 
+    height: 24px
+ }
+ 
+
+ 
+ .downloadresume{display:flex;
+    flex-direction: column;
+    align-items: center; 
+ 
+ }
+ .project {
+   border-radius: 25px;
+    background-color: #B76ED1;
+ margin: 25px;
+ }
+ .viewproject {
+    text-align: right;
+} 
+
+footer {
+   padding: 30px;
+   display: block;
+   background-color: #D9D9D9;
+   border-radius: 25px;
+   margin: 25px;
+   
+   display: flex;
+   justify-content: center;
+   Flex-direction: column;
+   Align-items: center;
+
+}
+
+label{
+   margin: 10px 0;
+   display: block;
+}
+
+button{
+   margin: 10px 0;
+   padding: 10px;
+   border-radius: 18px;
+   border: none;
+   display: block;
+   border: 1px solid black;
+}
+
+button:hover{
+   cursor: pointer;
+}
+
+input{
+   border-radius: 18px;
+   border: none;
+   padding: 5px;
+   border: 1px solid black;
+   display: block;
+   width: 75%;
+}
+
+textarea{
+   border-radius: 18px;
+   border: 1px solid black;
+   padding: 5px;
+}
+form{
+   width: 80%;
+}
+@media only screen and (max-width: 600px){
+   .row { flex-direction: column}Nav div { width: 65%}
+}
